@@ -1,0 +1,29 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Ignored default folder with query files
+/queries/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+# IDE folders
+.idea/
+.vscode/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Runtime data
+classification_log.csv
+
+# Model files
+*.pt
+
+# Python cache
+__pycache__/
+*.pyc
+.venv
+.venv-1
