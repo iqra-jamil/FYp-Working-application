@@ -1,0 +1,7 @@
+streamlit
+ultralytics
+pillow
+numpy
+matplotlib
+seaborn
+pandas
