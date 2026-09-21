@@ -15,6 +15,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 # Ai based smart waste mangement and classification system
 st.set_page_config(
@@ -67,7 +68,7 @@ st.markdown("""
 # constant
 MODEL_PATH      = "yolo_trash_classifier.pt"
 LOG_FILE        = "classification_log.csv"
-ADMIN_PASSWORD  = "admin123"
+ADMIN_PASSWORD  = st.secrets["ADMIN_PASSWORD"]
 CLASS_NAMES     = ['glass', 'metal', 'organic', 'paper', 'plastic']
 
 disposal_guide = {
